@@ -1,6 +1,6 @@
 # Solution
 
-`class Solution {
+```class Solution {
     public int missingNumber(int[] nums) {
         Arrays.sort(nums);
         if (nums[0] != 0){
@@ -14,4 +14,4 @@
         }
         return nums[nums.length - 1] + 1;
     }
-}`
+}```
